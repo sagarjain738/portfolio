@@ -7,7 +7,7 @@ import React from "react";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
-import Me from "@/public/me.jpg";
+import Me from "@/pictures/me.jpg";
 import { useActiveContext } from "@/context/active-section-context";
 
 type IntroProps = {};

@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import airbnb from "@/public/airbnb.png";
-import reddit from "@/public/reddit.png";
-import security from "@/public/security.png";
+import airbnb from "@/pictures/airbnb.png";
+import reddit from "@/pictures/reddit.png";
+import security from "@/pictures/security.png";
 
 export const links = [
   {
