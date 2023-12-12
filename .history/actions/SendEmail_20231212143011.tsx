@@ -53,7 +53,7 @@ export const sendEmail = async (userMail: string, senderMessage: string) => {
     const sendEmailOfSignup = await new Email().send(userMail, senderMessage);
     return sendEmailOfSignup;
   } catch (error: any) {
-    console.log(error);
+    console.log(error.message);
     // throw Error("Error in sending Mail, Sending Mail Failed");
   }
 };

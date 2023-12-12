@@ -41,9 +41,7 @@ class Email {
       const result = await this.creatingTransport().sendMail(mailOptions);
       return result;
     } catch (error: any) {
-      console.log(error);
-
-      // throw new Error("Error in sending Mail, Sending Mail Failed");
+      throw new Error("Error in sending Mail, Sending Mail Failed");
     }
   }
 }
@@ -53,8 +51,8 @@ export const sendEmail = async (userMail: string, senderMessage: string) => {
     const sendEmailOfSignup = await new Email().send(userMail, senderMessage);
     return sendEmailOfSignup;
   } catch (error: any) {
-    console.log(error);
-    // throw Error("Error in sending Mail, Sending Mail Failed");
+    console.log(error.message);
+    throw Error("Error in sending Mail, Sending Mail Failed");
   }
 };
 

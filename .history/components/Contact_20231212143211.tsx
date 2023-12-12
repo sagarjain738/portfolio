@@ -26,8 +26,8 @@ function Contact({}: Props) {
       formData.get("senderMail") as string,
       formData.get("senderMessage") as string
     );
-    // console.log("Result", result);
-    if (!result) return;
+    console.log("Result", result);
+
     if (result.accepted.length > 0) {
       toast.success("Email sent successfully!");
       return;
