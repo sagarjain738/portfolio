@@ -1,0 +1,25 @@
+import "./globals.css";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: `Sagar Jain's Portfolio`,
+  description: "Created by SAGAR JAIN",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className={`${inter.className} bg-gray-50 text-gray-950`}>
+        <div className="bg-[#fbe2e3] absolute top-[-6rem] right-[11rem] h-[31.25] w-[31.25rem] rounded-full"></div>
+        <div></div>
+        {children}
+      </body>
+    </html>
+  );
+}
