@@ -116,7 +116,7 @@ const Intro: React.FC<IntroProps> = () => {
 
         {/* Download CV */}
         <a
-          href={"/Resume.pdf"}
+          href={"/Sagar_Jain_Resume_Full_Stack.pdf"}
           download
           className="group text-gray-950 bg-white px-[1.4rem] py-3 flex justify-center items-center gap-2 rounded-full shadow-2xl
           outline-none focus:scale-110 hover:scale-110 active:scale-100 transition-all border border-black/10
