@@ -49,10 +49,8 @@ const About: React.FC<AboutProps> = () => {
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My journey in
-        software development has equipped me with a keen understanding of both
-        front-end and back-end technologies, allowing me to seamlessly bridge
-        the gap between design and functionality. My core stack is{" "}
+        feeling of finally figuring out a solution to a problem. My core stack
+        is{" "}
         <span className="font-medium">
           MERN stack (MongoDB, Express.js, React.js, Node.js)
         </span>

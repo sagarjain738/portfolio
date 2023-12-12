@@ -1,5 +1,5 @@
 "use client";
-import { useTheme } from "@/context/theme";
+import { useTheme } from "@/context/Theme";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 

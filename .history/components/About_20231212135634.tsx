@@ -42,22 +42,18 @@ const About: React.FC<AboutProps> = () => {
       <SeactionHeading title="About Me" />
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">
-          Computer Science from Pune University
-        </span>
-        , I decided to pursue my passion for programming. I learned{" "}
+        <span className="font-medium">Computer Science</span>, I decided to
+        pursue my passion for programming. I learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My journey in
-        software development has equipped me with a keen understanding of both
-        front-end and back-end technologies, allowing me to seamlessly bridge
-        the gap between design and functionality. My core stack is{" "}
+        feeling of finally figuring out a solution to a problem. My core stack
+        is{" "}
         <span className="font-medium">
-          MERN stack (MongoDB, Express.js, React.js, Node.js)
+          React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript, C#, .NET & SQLServer. I am always
-        looking to learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with TypeScript. I am always looking to learn new
+        technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
@@ -65,10 +61,10 @@ const About: React.FC<AboutProps> = () => {
       {/* About Me 2md Para*/}
       <p>
         <span className="italic">{`When I'm not coding`}</span>, I enjoy playing
-        video games, watching movies, Listening Music and Travelling. I also
-        enjoy <span className="font-medium">learning new things</span>. I am
-        currently learning about{" "}
-        <span className="font-medium">Mix Martail Arts</span>.{" "}
+        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        <span className="font-medium">learning new things</span>. I am currently
+        learning about{" "}
+        <span className="font-medium">history and philosophy</span>.{" "}
         {`I'm also
         learning how to play the guitar.`}
       </p>

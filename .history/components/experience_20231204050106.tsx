@@ -10,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useInView } from "react-intersection-observer";
 import { useSectionInView } from "@/hooks/hooks";
-import { useTheme } from "@/context/theme";
+import { useTheme } from "@/context/Theme";
 
 type ExperienceProps = {};
 

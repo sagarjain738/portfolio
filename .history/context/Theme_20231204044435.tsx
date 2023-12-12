@@ -32,7 +32,7 @@ function ThemeContextProvider({ children }: Props) {
   };
 
   useEffect(() => {
-    // console.log("Theme Setting using useEffect");
+    console.log("Theme Setting using useEffect");
 
     const theme = localStorage.getItem("theme");
 
@@ -47,11 +47,10 @@ function ThemeContextProvider({ children }: Props) {
         document.documentElement.classList.remove("dark");
       }
     } else {
-      const systemTheme: Theme = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      ).matches
-        ? "dark"
-        : "light";
+      const systemTheme: Theme =
+        window.matchMedia("(prefers-color-scheme: dark)").matches === "dark"
+          ? "dark"
+          : "light";
 
       setTheme(systemTheme);
       document.documentElement.classList.add("light");
